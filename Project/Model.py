@@ -7,7 +7,7 @@ from keras._tf_keras.keras.preprocessing import image
 from keras._tf_keras.keras.models import load_model
 
 app = Flask(__name__)
-model = load_model("C:\\Users\\Nik\\Downloads\\my_model (1).h5")
+model = load_model("my_model.h5")
 
 
 @app.route("/sendphoto", methods=["POST"])
